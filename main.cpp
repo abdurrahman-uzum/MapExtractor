@@ -46,11 +46,8 @@ int main ( int argc, char** argv )
 	//----------------------------------Auxiliary Variables-----------------------------------//
 
 	SDL_Rect unit_rect = { 0, 0, (WINDOW_WIDTH/SIZE) , (WINDOW_HEIGHT/SIZE) };
-	Gridmap grid = { 0, SIZE-1, 0, SIZE-1 };
 	
 	SDL_Event event;
-
-	INIT_TYPE init_type = INIT_TYPE::IMAGE;
 
 	// Control flags	
 	bool quit = false;	
