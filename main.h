@@ -19,7 +19,7 @@ extern SDL_Renderer* renderer;
 extern const int WINDOW_WIDTH;
 extern const int WINDOW_HEIGHT;
 
-extern const int POPULATION;
+extern const int SIZE;
 extern const int SIZE;
 
 extern int check_error;
