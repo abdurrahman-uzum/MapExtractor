@@ -31,14 +31,3 @@ bool init_SDL();
 void quit_SDL();
 
 void SDL_DrawSquareGrid( int cell_count, Uint32 color = 0xFFFFFFFF, int start_x = 0, int end_x = WINDOW_WIDTH, int start_y = 0, int end_y = WINDOW_HEIGHT );
-
-typedef struct
-{
-	int x_start_index;
-	int x_end_index;
-	int y_start_index;
-	int y_end_index;
-
-}Gridmap;
-
-enum class INIT_TYPE { USER, IMAGE, FILE, RANDOM };
